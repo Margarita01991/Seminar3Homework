@@ -22,5 +22,4 @@ else
 {
     Console.WriteLine("введите 5-значное число");
 }
-Console.WriteLine(numberText[0]);
 Console.Write($"{array[0]}, {array[1]}, {array[2]}, {array[3]}, {array[4]}");
