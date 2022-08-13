@@ -14,6 +14,6 @@ if (numberText.Length == 5)
     }
 else
 {
-    Console.WriteLine("введите 5-значное число");
+    Console.WriteLine("введите целое 5-значное число");
 }
 Console.Write($"{array[0]}, {array[1]}, {array[2]}, {array[3]}, {array[4]}");
