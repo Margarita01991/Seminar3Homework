@@ -7,10 +7,10 @@ int x2 = Coordinate("x", "B");
 int y2 = Coordinate("y", "B");
 int z2 = Coordinate("z", "B");
 
-int Coordinate(string coorName, string pointName)
+int Coordinate(string coordinateName, string pointName)
 {
-    Console.Write($"Введите координату {coorName} точки {pointName}: ");
-    return Convert.ToInt16(Console.ReadLine());
+    Console.Write($"Введите координату {coordinateName} точки {pointName}: ");
+    return Convert.ToInt32(Console.ReadLine());
 }
 
 double Decision(double x1, double x2, 
